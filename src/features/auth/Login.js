@@ -104,6 +104,28 @@ const Login = () => {
             Trust This Device
           </label>
         </form>
+        {/* Container for given credentials to test application */}
+        <div style={{ marginTop: "30px" }}>
+          <h3>For testing the application use the following credentials:</h3>
+          <div>
+            <p style={{ textDecorationLine: "underline" }}>Admin:</p>
+            <p style={{ marginLeft: "30px" }}>
+              Username: <b>athena</b> Password: <b>super13</b>
+            </p>
+          </div>
+          <div>
+            <p style={{ textDecorationLine: "underline" }}>Manager:</p>
+            <p style={{ marginLeft: "30px" }}>
+              Username: <b>john</b> Password: <b>super22</b>
+            </p>
+          </div>
+          <div>
+            <p style={{ textDecorationLine: "underline" }}>Employee:</p>
+            <p style={{ marginLeft: "30px" }}>
+              Username: <b>chris</b> Password: <b>super14</b>
+            </p>
+          </div>
+        </div>
       </main>
       <footer>
         <Link to="/">Back to Home</Link>

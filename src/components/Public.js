@@ -10,25 +10,26 @@ const Public = () => {
     <section className="public">
       <header>
         <h1>
-          Welcome to <span className="nowrap">Dan D. Repairs!</span>
+          Welcome to <span className="nowrap">Chris C. Computer Repairs!</span>
         </h1>
       </header>
       <main className="public__main">
+        <p>Located in Downtown Computer World.</p>
         <p>
-          Located in Beautiful Downtown Foo City, Dan D. Repairs provides a
-          trained staff ready to meet your tech repair needs.
+          Chris C. Computer Repairs provides a trained staff ready to meet your
+          computer repair needs!
         </p>
         <address className="public__addr">
-          Dan D. Repairs
+          Chris C. Computer Repairs
           <br />
-          555 Foo Drive
+          888 Tech Drive
           <br />
-          Foo City, CA 12345
+          Future City, CA 12345
           <br />
-          <a href="tel:+15555555555">(555) 555-5555</a>
+          <a href="tel:+17077077007">(707) 707-7007</a>
         </address>
         <br />
-        <p>Owner: Dan Davidson</p>
+        <p>Owner: Chris Casillas</p>
       </main>
       <footer>
         <Link to="/login">Employee Login</Link>
